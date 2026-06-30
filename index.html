@@ -140,10 +140,7 @@
     <span class="w-6 h-0.5 bg-white transition-opacity duration-300"></span>
     <span class="w-6 h-0.5 bg-white transition-transform duration-300"></span>
 </button>
-<a href="#register-form" target="_blank" class="inline-block bg-primary text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-primary/90 transition-all active:scale-95 duration-200 text-center">
-                <!-- TODO: Update with real Tally URL -->
-                Register Now
-            </a>
+
 </div>
 
 <!-- Mobile Menu Overlay -->
@@ -335,7 +332,8 @@
 <div class="flex-1 text-center lg:text-left">
 <span class="font-label-caps text-label-caps text-primary tracking-[0.2em] uppercase mb-4 block">Main Attraction</span>
 <h2 class="font-headline-md text-5xl lg:text-6xl text-on-surface mb-6">Grand Prize</h2>
-<div class="bg-surface inline-block p-8 md:p-10 rounded-xl shadow-2xl shadow-primary/20 mb-8 border-l-8 border-primary">
+<div class="bg-surface inline-block p-8 md:p-10 rounded-xl shadow-2xl shadow-primary/20 mb-8 border-l-8 border-primary text-left">
+<div class="text-xs font-bold text-secondary mb-3 flex items-center gap-1 uppercase tracking-wider"><span class="material-symbols-outlined text-[16px] text-primary">verified</span> Sponsored by Progen5</div>
 <div class="text-primary font-bold text-3xl md:text-4xl">Free Website or Landing Page</div>
 <div class="text-text-muted text-xl font-medium mt-1">Worth ₹9,999</div>
 </div>
@@ -403,27 +401,27 @@
 <div class="grid md:grid-cols-2 gap-12">
 <!-- Day 1 -->
 <div class="space-y-8">
-<div class="flex items-center gap-4 border-b border-border-subtle pb-4">
+<div class="flex items-center gap-4 border-b border-border-subtle pb-4 md:h-16">
 <span class="bg-primary text-white px-4 py-1 rounded font-bold">JULY 18</span>
 <h3 class="font-headline-md text-2xl">Day 1: Pitch Off</h3>
 </div>
 <div class="space-y-6">
-<div class="flex gap-4">
-<div class="font-label-caps text-primary pt-1 shrink-0">05:00 PM</div>
+<div class="flex gap-4 md:h-24">
+<div class="font-label-caps text-primary pt-1 shrink-0 w-24">05:00 PM</div>
 <div>
 <h4 class="font-bold">Opening Ceremony</h4>
 <p class="text-sm text-text-muted px-4 md:px-0">Introduction to FuseCake &amp; Sponsors</p>
 </div>
 </div>
-<div class="flex gap-4">
-<div class="font-label-caps text-primary pt-1 shrink-0">05:30 PM</div>
+<div class="flex gap-4 md:h-24">
+<div class="font-label-caps text-primary pt-1 shrink-0 w-24">05:30 PM</div>
 <div>
 <h4 class="font-bold">Startup Pitches (Set 1)</h4>
 <p class="text-sm text-text-muted px-4 md:px-0">15 startups present live</p>
 </div>
 </div>
-<div class="flex gap-4">
-<div class="font-label-caps text-primary pt-1 shrink-0">07:00 PM</div>
+<div class="flex gap-4 md:h-24">
+<div class="font-label-caps text-primary pt-1 shrink-0 w-24">07:00 PM</div>
 <div>
 <h4 class="font-bold">Networking Break</h4>
 <p class="text-sm text-text-muted px-4 md:px-0">Founder matchmaking rooms open</p>
@@ -433,27 +431,27 @@
 </div>
 <!-- Day 2 -->
 <div class="space-y-8">
-<div class="flex items-center gap-4 border-b border-border-subtle pb-4">
+<div class="flex items-center gap-4 border-b border-border-subtle pb-4 md:h-16">
 <span class="bg-primary text-white px-4 py-1 rounded font-bold">JULY 19</span>
 <h3 class="font-headline-md text-2xl">Day 2: The Finale</h3>
 </div>
 <div class="space-y-6">
-<div class="flex gap-4">
-<div class="font-label-caps text-primary pt-1 shrink-0">05:00 PM</div>
+<div class="flex gap-4 md:h-24">
+<div class="font-label-caps text-primary pt-1 shrink-0 w-24">05:00 PM</div>
 <div>
 <h4 class="font-bold">Startup Pitches (Set 2)</h4>
 <p class="text-sm text-text-muted px-4 md:px-0">Remaining 15 startups present</p>
 </div>
 </div>
-<div class="flex gap-4">
-<div class="font-label-caps text-primary pt-1 shrink-0">06:45 PM</div>
+<div class="flex gap-4 md:h-24">
+<div class="font-label-caps text-primary pt-1 shrink-0 w-24">06:45 PM</div>
 <div>
 <h4 class="font-bold">Keynote: Future of Startups</h4>
 <p class="text-sm text-text-muted px-4 md:px-0">Industry expert talk session</p>
 </div>
 </div>
-<div class="flex gap-4">
-<div class="font-label-caps text-primary pt-1 shrink-0">07:30 PM</div>
+<div class="flex gap-4 md:h-24">
+<div class="font-label-caps text-primary pt-1 shrink-0 w-24">07:30 PM</div>
 <div>
 <h4 class="font-bold">Awards Ceremony</h4>
 <p class="text-sm text-text-muted px-4 md:px-0">Winners announcement and prizes</p>
@@ -547,18 +545,27 @@
 </main>
 <!-- Footer -->
 <footer class="bg-surface py-8 border-t border-border-subtle">
-<div class="flex flex-col items-center px-gutter max-w-container-max mx-auto gap-6">
-    <img alt="FuseCake Logo" class="h-8 w-auto" src="logo.jpeg" />
-    <div class="flex flex-col items-center justify-center gap-4 text-sm text-on-surface-variant font-medium">
+<div class="flex flex-col md:flex-row items-center md:items-start md:justify-between px-gutter max-w-container-max mx-auto gap-8 md:gap-0">
+    
+    <!-- Left: Logo -->
+    <div class="w-full md:w-auto flex justify-center md:justify-start">
+        <img alt="FuseCake Logo" class="h-8 w-auto" src="logo.jpeg" />
+    </div>
+
+    <!-- Center: Links -->
+    <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-sm text-on-surface-variant font-medium">
         <a href="#" class="hover:text-primary transition-colors">Privacy Policy</a>
         <a href="#" class="hover:text-primary transition-colors">Terms of Service</a>
         <a href="#" class="hover:text-primary transition-colors">Contact Us</a>
     </div>
-    <div class="text-center text-sm text-text-muted space-y-1">
-        <p>Powered by Progen5</p>
+
+    <!-- Right: Sponsor & Copyright -->
+    <div class="text-center md:text-right text-sm text-text-muted space-y-1">
+        <p>Powered by <span class="font-bold text-on-surface">Progen5</span></p>
         <p>Technology Sponsor</p>
-        <p class="mt-4">&copy; 2026 FuseCake. All rights reserved.</p>
+        <p class="mt-4 md:mt-0">&copy; 2026 FuseCake. All rights reserved.</p>
     </div>
+
 </div>
 </footer>
 <script>
