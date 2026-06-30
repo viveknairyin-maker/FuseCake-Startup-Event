@@ -333,10 +333,12 @@
 <span class="font-label-caps text-label-caps text-primary tracking-[0.2em] uppercase mb-4 block">Main Attraction</span>
 <h2 class="font-headline-md text-5xl lg:text-6xl text-on-surface mb-6">Grand Prize</h2>
 <div class="bg-surface inline-block p-8 md:p-10 rounded-xl shadow-2xl shadow-primary/20 mb-8 border-l-8 border-primary text-left">
-<div class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full shadow-md mb-6">
-    <span class="material-symbols-outlined text-sm">workspace_premium</span>
-    <span class="text-[11px] tracking-widest uppercase opacity-90 font-medium">Sponsored by</span>
-    <span class="font-bold text-sm tracking-widest uppercase">Progen5</span>
+<div class="flex justify-center md:justify-start mb-8 w-full">
+<div class="inline-flex items-center justify-center gap-1.5 bg-primary text-white px-3.5 py-1.5 rounded-full shadow-md whitespace-nowrap">
+    <span class="material-symbols-outlined text-[14px]">workspace_premium</span>
+    <span class="text-[10px] sm:text-[11px] font-medium tracking-widest uppercase opacity-90 leading-none">Sponsored by</span>
+    <span class="text-[12px] sm:text-[14px] font-bold tracking-widest uppercase leading-none">Progen5</span>
+</div>
 </div>
 <div class="text-primary font-bold text-3xl md:text-4xl">Free Website or Landing Page</div>
 <div class="text-text-muted text-xl font-medium mt-1">Worth ₹9,999</div>
@@ -402,7 +404,7 @@
 <h2 class="font-headline-md text-headline-md text-on-surface">Event Timeline</h2>
 <p class="text-text-muted mt-2">Mark your calendars for these sessions.</p>
 </div>
-<div class="grid md:grid-cols-2 gap-12">
+<div class="grid grid-cols-1 md:grid-cols-[1fr_1px_1fr] gap-12 md:gap-8 lg:gap-16">
 <!-- Day 1 -->
 <div class="space-y-8">
 <div class="flex items-center gap-4 border-b border-border-subtle pb-4 h-16">
@@ -433,6 +435,9 @@
 </div>
 </div>
 </div>
+<!-- Vertical Divider (desktop only) -->
+<div class="hidden md:block w-px bg-border-subtle h-[calc(100%-2rem)] mt-4 justify-self-center"></div>
+
 <!-- Day 2 -->
 <div class="space-y-8">
 <div class="flex items-center gap-4 border-b border-border-subtle pb-4 h-16">
